@@ -25,10 +25,24 @@ header .header-logo {
     background-repeat: no-repeat;
 }
 
+main .description h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+main .description p {
+    text-align: center;
+    margin: 0 10px 30px 10px;
+}
+
 main .main-date {
     border: 1px solid black;
     border-radius: 5px;
     margin: 0 50px;
+}
+
+main .main-date h3 {
+    text-align: center;
 }
 
 main .main-date ul {
