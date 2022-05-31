@@ -12,8 +12,8 @@ html {
 header {
     display: flex;
     justify-content: center;
-    background: linear-gradient(207.8deg, #201E1C 16.69%, #F5D400 100%);
-    color: #FAAB0D;
+    background: #111216;
+    color: white;
 }
 
 header .header-logo {
@@ -23,6 +23,43 @@ header .header-logo {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+main .social-menu {
+    width: 100%;
+    height: 250px;
+}
+
+main .social-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .social-menu li {
+    position: relative;
+    top: 105px;
+}
+
+main .social-menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+main .img-menu{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background-image: url('./img/social-menu.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main li button {
+    width: 110px;
+    height: 50px;
+    background-color: #111216;
+    border-radius: 10px;
 }
 
 main .description h2 {
@@ -80,7 +117,7 @@ main .main-date .icon-lugar {
 }
 
 footer {
-    background-color: #F5280C;
+    background-color: #111216;
     color: white;
 }
 
